@@ -1,0 +1,9 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\teoca\IdeaProjects\ScalaDojo\src\main\scala\main.scala:31:77: not enough arguments for method apply: (name: String, id: String, list: List[WebServer.Note])WebServer.Student in object Student.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameters name, id, list.[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit def studentFormat[Note: JsonFormat] = jsonFormat3(Student.apply())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\teoca\IdeaProjects\ScalaDojo\src\main\scala\main.scala:35:78: not enough arguments for method apply: (students: List[WebServer.Student], name: String, id: String)WebServer.Course in object Course.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameters students, name, id.[0m
+[0m[[0m[31merror[0m] [0m[0m    implicit def courseFormat[Student: JsonFormat] = jsonFormat3(Course.apply())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
